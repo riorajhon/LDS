@@ -4,8 +4,8 @@ import bittensor
 import argparse
 
 # Edit these variables directly in the file
-latitude = 43.7291884  # Optional: set to float value (e.g., 4.5) or leave as None
-longitude = 7.4172013  # Optional: set to float value (e.g., 31.6) or leave as None
+latitude = None  # Optional: set to float value (e.g., 4.5) or leave as None
+longitude = None  # Optional: set to float value (e.g., 31.6) or leave as None
 wallet_name = "riora_coldkey"  # Your wallet name
 wallet_hotkey = "default"  # Your hotkey name
 api_url = "http://34.211.230.92:5000/validate"  # API endpoint URL
